@@ -52,7 +52,7 @@ namespace TwitterFavs
             ListFavoriteTweetsOptions favopts = new ListFavoriteTweetsOptions();
             favopts.Count = 200;    //read max 200 tweets per iteration
 
-            List<TwitterStatus> tweets;
+            List<TwitterStatus> tweets; //list of tweets returned from the Twitter API
 
             long l = 1;
             bool CheckForMore = true;
